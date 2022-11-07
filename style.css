@@ -1,0 +1,47 @@
+/*Code To Set Up Page Style*/
+body {
+  background-color: rgb(134, 99, 162);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  margin-top: 30%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#colorCode {
+  margin-top: 0;
+}
+
+div {
+  align-self: center;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+button{
+  border-radius: 10px;
+  margin-top: 10px;
+  align-self: center;
+  width: 100px;
+  height: 40px;
+}
+button:hover{
+  background-color: blueviolet;
+}
+
+/*Code Relating to Reader*/
+
+div {
+  background-color: #11111111;
+}
