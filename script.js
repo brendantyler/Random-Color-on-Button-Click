@@ -10,9 +10,13 @@ function changeColor() {
 } 
 
 function pickColor(){
-  console.log('clicked');
   setColor =  Math.floor(Math.random()*16777215).toString(16);
-  changeColor();
+ 
+  changeColor(); 
+
+  /*console.logs to verify clicks and value for user*/
+  console.log('clicked');
+  console.log(setColor);
 }
 
 colorButton.addEventListener('click', pickColor)
