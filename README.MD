@@ -27,6 +27,7 @@ function changeColor() {
   colorCodeText.innerText = "#" + setColor;
 } 
 ```
+Click <a href='https://brendantyler.github.io/Random-Color-on-Button-Click/' >Here</a> to see it in action.
 
 
 
