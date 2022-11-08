@@ -1,3 +1,5 @@
+<img alt="Random Color Page Example" src="assets/random_color_on_button_click_example.png">
+
 ### Change Color with Button Click
 
 In this tutorial will you how make a ```Button``` element cause a random background color color change using ```JavaScript``` functions. 
@@ -7,7 +9,7 @@ In this tutorial will you how make a ```Button``` element cause a random backgro
 The program will have the button call on two functions to complete the task. 
 The first function will be ```function pickColor```. This will use integrated Javascript functions ```Math.floor()``` and ```Math.random()``` together to round and randomly generate a hexidecimal number and converting them to a string for the use of the next function. 
 
-```
+```JavaScript
 function pickColor(){
   setColor = Math.floor(Math.random()*16777215).toString(16);
  
@@ -21,13 +23,13 @@ function pickColor(){
 
 The second function ```function changeColor```, will take the previous string from ```function pickColor```. Adding the ```#``` to the ```hex value``` and use them to update values in the specified divs and edit background color of the ```colorWindow``` div specified in the HTML.
 
-```
+```JavaScript
 function changeColor() {  
   colorWindow.style.backgroundColor= '#' + setColor;
   colorCodeText.innerText = "#" + setColor;
 } 
 ```
-Click <a href='https://brendantyler.github.io/Random-Color-on-Button-Click/' >Here</a> to see it in action.
 
+Click <a href='https://brendantyler.github.io/Random-Color-on-Button-Click/' >Here</a> to see it in action. 
 
 
