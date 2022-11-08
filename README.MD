@@ -7,12 +7,14 @@ In this tutorial will you how make a ```Button``` element cause a random backgro
 ### Main Functions
 
 The program will have the button call on two functions to complete the task. 
-The first function will be ```function pickColor```. This will use integrated Javascript functions ```Math.floor()``` and ```Math.random()``` together to round and randomly generate a hexidecimal number and converting them to a string for the use of the next function. 
+The first function will be ```function pickColor```. This will use integrated Javascript functions ```Math.floor()``` and ```Math.random()``` together to round and randomly generate a hexadecimal number and converting them to a string for the use of the next function. The number ```16777215``` is the amount of number combinations when working with ```RGB(255,255,255)``` format.
 
 ```JavaScript
 function pickColor(){
+  /*create random hexadecimal number string*/
   setColor = Math.floor(Math.random()*16777215).toString(16);
  
+ /*call next function*/
   changeColor(); 
 
   /*console.logs to verify clicks and value for user*/
