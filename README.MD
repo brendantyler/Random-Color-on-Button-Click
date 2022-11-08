@@ -1,4 +1,4 @@
-<img alt="Random Color Page Example" src="assets/images/random_color_on_button_click_example.png">
+<img alt="Random Color Page Example" src="images/random_color_on_button_click_example.png">
 
 ### Change Color with Button Click
 
